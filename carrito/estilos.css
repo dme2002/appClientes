@@ -1,0 +1,62 @@
+body{
+    background-color: #F6F6F9;
+}
+
+.contenido-logo{
+
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.contenido-logo nav{
+
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.parrafo{
+
+    margin-left: 1rem;
+}
+
+.contenido-carrito{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    border-radius: 10px;
+    height: 8rem;
+}
+
+.subContenido-carrito{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripción-carrito{
+
+    margin-left: 0.5rem;
+}
+
+.compra-total{
+
+    background-color: white;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7rem;
+}

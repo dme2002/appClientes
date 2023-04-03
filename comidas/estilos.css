@@ -1,0 +1,73 @@
+body{
+    background-color: #F6F6F9;
+}
+
+.contenido-logo{
+
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.contenido-logo nav{
+
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+
+}
+
+
+
+.titulo h3{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+    margin: 0;
+
+}
+.parrafo{
+
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}
+
+
+.contenido-comidas{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    height: 8rem;
+}
+
+
+.subContenido-comidas{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripción-comidas{
+
+    margin-left: 15px;
+}
+
+
+.modal-dialog{
+
+    margin-top: 10rem;
+}
+

@@ -1,0 +1,67 @@
+body{
+    background-color: #F6F6F9;
+}
+
+.contenido-logo{
+
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.contenido-logo nav{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenido-mapa{
+
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E1E1E;
+}
+
+.mapa{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.contenido-3{
+
+    margin-top: 5%;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#boton-confirmar{
+
+    width: 200px;
+    height: 40px;
+    border-radius: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #0C79FA;
+    margin-left: 1rem;
+}

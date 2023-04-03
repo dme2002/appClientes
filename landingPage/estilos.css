@@ -1,0 +1,149 @@
+.bg-body-tertiary{
+    background-color: #F6F6F9 !important;
+}
+
+.navbar-nav{
+    margin-left: 18%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5rem;
+}
+
+.logotipo{
+
+    width: 70%;
+}
+
+.contenido-Principal{
+
+    background-color: #F6F6F9 ;
+    padding-top: 10%;
+    
+}
+
+.contenido-1{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenido-2{
+
+    background-color: white;
+    padding-top: 10%;
+}
+
+
+.contenido-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.articulos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.informacion-1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.informacion-1 h6{
+
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1D1D1D;
+}
+
+.informacion-1 p{
+
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* line-height: 18px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(29, 29, 29, 0.7);
+}
+
+
+
+.contenido-4{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+.imagen-comidas{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7,12, 0.5)),url(img/comidas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+    width: 85%;
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+footer{
+    background-color: #F6F6F9;
+}
+
+.contenido-5{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.acerca-de{
+
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info{
+
+    margin: 0;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.img-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
