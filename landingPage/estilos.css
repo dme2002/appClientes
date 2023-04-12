@@ -147,3 +147,79 @@ footer{
     align-items: center;
 }
 
+/*secicion bienvenida*/
+
+#seccion-Bienvenida{
+    display: none;
+}
+
+body{
+
+    background-color: #F6F6F9;
+    }
+    
+    .contenido-1-bienvenida{
+    
+    margin-top: 25%;
+    }
+    
+    .delivery-man{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+    .contenido-2-bienvenida{
+    margin-top: 30%;
+    }
+    
+    .texto-logo{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contenido-3-bienvenida{
+    
+        margin-top: 30%;
+    }
+    
+    .botones{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #boton-inicio{
+    
+    width: 314px;
+    height: 70px;
+    border-radius: 3rem;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+        
+    }
+    
+    #boton-registro{
+    
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    }
+    
+    .texto-bienvenida{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10%;
+    }

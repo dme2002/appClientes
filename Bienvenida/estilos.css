@@ -3,7 +3,7 @@ body{
 background-color: #F6F6F9;
 }
 
-.contenido-1{
+.contenido-1-bienvenida{
 
 margin-top: 25%;
 }
@@ -15,7 +15,7 @@ flex-direction: row;
 justify-content: center;
 }
 
-.contenido-2{
+.contenido-2-bienvenida{
 margin-top: 30%;
 }
 
@@ -27,7 +27,7 @@ margin-top: 30%;
     align-items: center;
 }
 
-.contenido-3{
+.contenido-3-bienvenida{
 
     margin-top: 30%;
 }
