@@ -252,7 +252,7 @@ body{
     
     .contenido-3-inicio{
     
-        margin-top: 70%;
+        margin-top: 55%;
     }
     
     .botones{
@@ -390,7 +390,7 @@ body{
     }
     .contenido-3{
     
-        margin-top: 35%;
+        margin-top: 20%;
     }
     .botones{
     
@@ -552,3 +552,192 @@ body{
     align-items: center;
     height: 7rem;
 }
+
+    /*---------------------seccion Ubicacion------------------*/
+
+    #seccion-ubicacion{
+
+        display: none;
+    }
+.contenido-logo-u{
+
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.contenido-logo-u nav{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenido-mapa{
+
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E1E1E;
+}
+
+.mapa{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenido-3-u{
+
+    margin-top: 5%;
+}
+.botones-u{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#boton-confirmar{
+
+    width: 200px;
+    height: 40px;
+    border-radius: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #0C79FA;
+    margin-left: 1rem;
+}
+
+
+    /*---------------------seccion tarjeta------------------*/
+
+    #seccion-tarjeta{
+        display: none;
+    }
+
+
+
+
+    .contenido-logo-tarjeta{
+
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    
+    .contenido-logo-tarjeta nav{
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contendor-principal-tarjeta{
+        padding: 1rem;
+        width: 90%;
+        background-color: white;
+        margin: 1rem;
+        border-radius: 5px;
+    
+    }
+    
+    .contenedor-tarjetas{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+    
+    .contenedor-formulario-tarjeta{
+        margin-top: 2rem;
+    
+    }
+    
+    .form-group{
+
+        margin-top: 1rem;
+    }
+    
+    .form-label{
+    
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 23px;
+        color: #000000
+    }
+    
+    .contenedor-fecha{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 15px;
+    }
+    
+    
+    
+    .contenido-3-tarjeta{
+    
+        margin-top: 20%;
+    }
+    .botones-tarjeta{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #boton-confirmar-tarjeta{
+    
+        width: 300px;
+        height: 70px;
+        border-radius: 3rem;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        background-color: #0C79FA;
+    }
+
+
+
+/*---------------------seccion finalizar------------------*/
+
+#seccion-finalizar{
+    display: none;
+}
+
+    .fin{
+
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80%;
+    }
+    
+    .texto-1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        color: #ffff;
+        margin-bottom: 1rem;
+    
+    }
+    
+    .texto-2{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #FFFFFF;
+            margin: 0;
+    
+    
+    }
