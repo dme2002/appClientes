@@ -2,7 +2,7 @@ body{
 
     background-color: #F6F6F9;
 }
-.contenido-1{
+.contenido-1-inicio{
 
     display: flex;
     flex-direction: row;
@@ -19,7 +19,7 @@ body{
     margin-bottom: 0;
 }
 
-.contenido-3{
+.contenido-3-inicio{
 
     margin-top: 70%;
 }
@@ -43,7 +43,7 @@ body{
     background-color: #0C79FA;
 }
 
-.contenido-4{
+.contenido-4-inicio{
     display: flex;
     justify-content: center;
     align-items: center;
