@@ -1,5 +1,98 @@
 
 
+document.getElementById('formulario-login').addEventListener('submit',validarlogin);
+document.getElementById('formulario-registro').addEventListener('submit',validarRegistro);
+
+
+function validarlogin(e) {
+    e.preventDefault();
+    
+    let correo   =document.getElementById('correo').value;
+    let contraseña =document.getElementById('contraseña').value;
+    let expRegularText=/^ d+$/;
+    let expRegularPassword= /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,15}/;
+    let expCorreo =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
+    let acceso=false;
+
+
+    if (correo==null || correo.length==0 || expCorreo.test(correo.value)) {
+    alert('Correo invalido');
+    document.getElementById('correo').style.boxShadow='0 0 5px red';
+        console.log('error');
+        acceso= false;
+    
+        
+    } else if (contraseña==null || contraseña.length<8 || expRegularPassword.test(contraseña.value)) {
+        alert('Contraseña invalida');
+        document.getElementById('contraseña').style.boxShadow='0 0 5px red';
+            console.log('error');
+            acceso= false;
+        
+
+    } else if(acceso=true){
+        mostrarPaginaMenu();
+
+    }
+
+}
+
+
+function validarRegistro(e) {
+    e.preventDefault();
+
+    let nombre     =document.getElementById('nombre-registro').value;
+    let apellido   =document.getElementById('apellido-registro').value;
+    let correo     =document.getElementById('correo-registro').value;
+    let contraseña =document.getElementById('contraseña-registro').value;
+
+
+    let expRegularText=/^ d+$/;
+    let expRegularPassword= /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,15}/;
+    let expCorreo =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
+    let acceso=false;
+
+    if (nombre==null || nombre.length==0 || expRegularText.test(nombre.value)) {
+        alert('Nombre invalido');
+        document.getElementById('nombre-registro').style.boxShadow='0 0 5px red';
+            console.log('error');
+            acceso= false;
+    }
+
+    else if (apellido==null || apellido.length==0 || expRegularText.test(apellido.value)) {
+        alert('apellido invalido');
+        document.getElementById('apellido-registro').style.boxShadow='0 0 5px red';
+            console.log('error');
+            acceso= false;
+        
+            
+        }
+
+    else if (correo==null || correo.length==0 || expCorreo.test(correo.value)) {
+    alert('Correo invalido');
+    document.getElementById('correo-registro').style.boxShadow='0 0 5px red';
+        console.log('error');
+        acceso= false;
+    
+        
+    } else if (contraseña==null || contraseña.length<8 || expRegularPassword.test(contraseña.value)) {
+        alert('Contraseña invalida');
+        document.getElementById('contraseña-registro').style.boxShadow='0 0 5px red';
+            console.log('error');
+            acceso= false;
+
+
+    } else if(acceso=true){
+        mostrarPaginaMenu();
+
+    }
+
+}
+
+
+
+
+
+
 function mostrarPaginaBienvenida() {
     document.getElementById('seccion-Bienvenida').style.display="block";
     document.getElementById('seccion-landingPage').style.display="none";

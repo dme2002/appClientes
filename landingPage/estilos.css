@@ -147,6 +147,11 @@ footer{
     align-items: center;
 }
 
+
+#seccion-landingPage{
+    display: none;
+}
+
 /*secicion bienvenida*/
 
 #seccion-Bienvenida{
@@ -227,7 +232,7 @@ body{
     /*secicion inicio sesion*/
 
     #seccion-inicioSesion{
-        display: none;
+        display: block;
     }
     body{
 
