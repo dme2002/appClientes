@@ -149,7 +149,7 @@ footer{
 
 
 #seccion-landingPage{
-    display: none;
+    
 }
 
 /*secicion bienvenida*/
@@ -232,7 +232,7 @@ body{
     /*secicion inicio sesion*/
 
     #seccion-inicioSesion{
-        display: block;
+        display: none;
     }
     body{
 
@@ -620,6 +620,17 @@ body{
     margin-left: 1rem;
 }
 
+#boton-pagar{
+    width: 200px;
+    height: 40px;
+    border-radius: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #0C79FA;
+    margin-left: 1rem;
+
+}
 
     /*---------------------seccion tarjeta------------------*/
 
