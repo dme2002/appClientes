@@ -1,7 +1,11 @@
 
 
+
 document.getElementById('formulario-login').addEventListener('submit',validarlogin);
 document.getElementById('formulario-registro').addEventListener('submit',validarRegistro);
+
+
+
 
 
 function validarlogin(e) {
@@ -88,6 +92,9 @@ function validarRegistro(e) {
 
 }
 
+
+
+
 function mostrarUbicacionActual() {
        /** @type {HTMLElement}*/
        var posElt;
@@ -130,12 +137,7 @@ function mostrarUbicacionActual() {
     botonPagar.setAttribute("style", "display:block;");
     contenedorLink.setAttribute("style", "display:block;");
     
-    //agregando coordenadas al mapa
-
     
-
-
-
 
 
 }
@@ -164,6 +166,8 @@ function mostrarPaginaRegistro() {
     document.getElementById('seccion-Bienvenida').style.display="none";
     document.getElementById('seccion-landingPage').style.display="none";
 }
+
+
 
 function mostrarPaginaMenu() {
 
@@ -223,4 +227,6 @@ function mostrarPaginaFinalizar() {
     document.getElementById('seccion-Bienvenida').style.display="none";
     document.getElementById('seccion-landingPage').style.display="none";
 }
+
+
 
