@@ -15,10 +15,6 @@ body{
 }
 
 
-.categorias{
-
-
-}
 
 .titulo{
 
@@ -56,6 +52,20 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+
+
+.sombra:hover{
+    border: solid 1px #FFFFFF;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    width: 6rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    height: 6rem;
+}
+
+
 .categoria-2 {
     display: flex;
     justify-content: center;
@@ -74,3 +84,132 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+<!---------Seccion Empresas-->
+
+
+
+body{
+    background-color: #F6F6F9;
+}
+
+.contenido-logo{
+
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.contenido-logo nav{
+
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo{
+
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+
+.contenido-empresas{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.img-empresa{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripción-empresa{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+<!---------Seccion Poductos---->
+
+body{
+    background-color: #F6F6F9;
+}
+
+.contenido-logo{
+
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.contenido-logo nav{
+
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+
+}
+
+
+
+.titulo h3{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+    margin: 0;
+
+}
+.parrafo{
+
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}
+
+
+.contenido-comidas{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    height: 8rem;
+}
+
+
+.subContenido-comidas{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripción-comidas{
+
+    margin-left: 15px;
+}
+
+
+.modal-dialog{
+
+    margin-top: 10rem;
+}
+
