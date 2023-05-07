@@ -20,6 +20,41 @@ const obtenerClientes = () => {
 
   obtenerClientes();
 
+
+  function validarRegistro() {
+
+   
+    let email =document.getElementById('email').value;
+    let contraseña   =document.getElementById('contraseña').value;
+    let expPassword= /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,15}/;
+    let expemail =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
+    let acceso=false;
+  
+       
+    if (email==null || email.length==0 || expemail.test(email.value)) {
+      //  alert('email invalido');
+      document.getElementById('email').style.boxShadow='0 0 5px red';
+          console.log('error');
+           // acceso= false;
+  
+      } else if (contraseña==null  || contraseña.length<8|| expPassword.test(contraseña.value)) {
+          //  alert('Contraseña invalida');
+          document.getElementById('contraseña').style.boxShadow='0 0 5px red';
+              console.log('error');
+               // acceso= false;   
+    
+    
+      } else{
+    
+       console.log('validacion correcta');
+       guardar();
+            
+          }
+  
+  
+    
+  }
+
   
 
 const guardar = async () => {
@@ -52,3 +87,21 @@ const guardar = async () => {
    window.location.href = "http://127.0.0.1:5500/menu/index.html";
 };
 
+
+
+
+function mostrarPaginaRegistro() {
+
+  window.location.href = "http://127.0.0.1:5500/registro/registro.html";
+  }
+  
+  
+  function mostrarPaginaBienvenida() {
+  
+  window.location.href = "http://127.0.0.1:5500/Bienvenida/index.html";
+  }
+  
+  function mostrarPaginaInicioSesion() {
+    
+    window.location.href = "http://127.0.0.1:5500/iniciar%20Seccion/inicio-sesion.html";
+  }

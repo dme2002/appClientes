@@ -213,3 +213,145 @@ body{
     margin-top: 10rem;
 }
 
+
+
+/*seccion carrito de compras*/
+
+#seccion-carrito{
+    display: none;
+}
+
+.contenido-logo{
+
+margin-top: 15%;
+margin-bottom: 15%;
+}
+
+.contenido-logo nav{
+
+display: flex;
+justify-content: center;
+}
+
+.titulo{
+
+margin-left: 1rem;
+margin-bottom: 1rem;
+}
+
+.parrafo{
+
+margin-left: 1rem;
+}
+
+.contenido-carrito{
+
+display: flex;
+justify-content: space-around;
+background-color: white;
+display: flex;
+justify-content: space-around;
+margin: 1rem;
+border-radius: 10px;
+height: 8rem;
+}
+
+.subContenido-carrito{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.descripción-carrito{
+
+margin-left: 0.5rem;
+}
+
+.compra-total{
+
+background-color: white;
+margin: 1rem;
+padding: 0.5rem;
+border-radius: 1rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 7rem;
+}
+
+
+    /*---------------------seccion Ubicacion------------------*/
+
+    #seccion-ubicacion{
+
+        display: none;
+    }
+.contenido-logo-u{
+
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.contenido-logo-u nav{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenido-mapa{
+
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E1E1E;
+}
+
+.mapa{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenido-3-u{
+
+    margin-top: 5%;
+}
+.botones-u{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#boton-confirmar{
+
+    width: 200px;
+    height: 40px;
+    border-radius: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #0C79FA;
+    margin-left: 1rem;
+}
+
+#boton-pagar{
+    width: 200px;
+    height: 40px;
+    border-radius: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #0C79FA;
+    margin-left: 1rem;
+
+}
