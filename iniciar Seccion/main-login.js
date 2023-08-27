@@ -11,7 +11,7 @@ const obtenerClientes = () => {
     .then((respuesta) => respuesta.json())
     .then((respuestaClientes) => {
      console.log(respuestaClientes);
-    Clientes=(respuestaClientes);
+    Clientes=respuestaClientes;
 
 
 
